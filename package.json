@@ -1,0 +1,29 @@
+{
+  "name": "api-tbx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "nodemon index.js",
+    "lint": "standard"
+  },
+  "keywords": [],
+  "author": "Cesar Gimenez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mocha": "^10.4.0"
+  }
+}
