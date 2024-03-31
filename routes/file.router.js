@@ -24,6 +24,7 @@ const { getFilesFormattedCtrl, getFileListCtrl } = require('../controllers/file.
  *           application/json:
  *             schema:
  *               type: array
+ *               example: [{ file: 'test1.csv', lines: [{ text: 'abcdefg', number: 1, hex: '00ff64' }] }]
  *       400:
  *         description: Bad Request
  *       500:
@@ -46,6 +47,7 @@ router.get('/data', getFilesFormattedCtrl)
  *           application/json:
  *             schema:
  *               type: array
+ *               example: ['test1.csv', 'test2.csv', 'test3.csv', 'test4.csv', 'test5.csv', 'test6.csv']
  *       400:
  *         description: Bad Request
  *       500:
