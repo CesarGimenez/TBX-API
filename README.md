@@ -12,3 +12,6 @@ Test the app with Mocha & Chai
 
 Docker compose 
 ## `docker-compose up -d`
+
+API Documentation
+`http://localhost:3000/api-docs`
