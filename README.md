@@ -1,6 +1,7 @@
 
 ## Up the API project, can run:
-`npm i`
+`npm i` 
+
 `npm start`
 
 Runs the app in the development mode at localhost:3000
